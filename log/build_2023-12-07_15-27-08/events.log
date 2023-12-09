@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000258] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000280] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000333] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000355] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000407] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001092] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001144] (camera_pkg) JobQueued: {'identifier': 'camera_pkg', 'dependencies': OrderedDict()}
+[0.001203] (camera_pkg) JobStarted: {'identifier': 'camera_pkg'}
+[0.069764] (camera_pkg) JobProgress: {'identifier': 'camera_pkg', 'progress': 'cmake'}
+[0.070478] (camera_pkg) JobProgress: {'identifier': 'camera_pkg', 'progress': 'build'}
+[0.071330] (camera_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arthur/ros2_ws/build/camera_pkg', '--', '-j4', '-l4'], 'cwd': '/home/arthur/ros2_ws/build/camera_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1418'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1753'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2155'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:30645'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1570,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1570'), ('INVOCATION_ID', '5946e1e5faf3486289767f0f10888f5b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0NITF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:99a24b5c-1f0e-47e6-af37-052daa1e3239'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/camera_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099827] (-) TimerEvent: {}
+[0.119310] (camera_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_processing\x1b[0m\n'}
+[0.144030] (camera_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_processing.dir/src/image_processing.cpp.o\x1b[0m\n'}
+[0.199893] (-) TimerEvent: {}
+[0.300194] (-) TimerEvent: {}
+[0.400522] (-) TimerEvent: {}
+[0.500859] (-) TimerEvent: {}
+[0.601196] (-) TimerEvent: {}
+[0.701501] (-) TimerEvent: {}
+[0.801809] (-) TimerEvent: {}
+[0.902118] (-) TimerEvent: {}
+[1.002410] (-) TimerEvent: {}
+[1.102720] (-) TimerEvent: {}
+[1.202999] (-) TimerEvent: {}
+[1.303302] (-) TimerEvent: {}
+[1.403581] (-) TimerEvent: {}
+[1.503878] (-) TimerEvent: {}
+[1.604193] (-) TimerEvent: {}
+[1.704507] (-) TimerEvent: {}
+[1.804795] (-) TimerEvent: {}
+[1.905085] (-) TimerEvent: {}
+[2.005432] (-) TimerEvent: {}
+[2.105769] (-) TimerEvent: {}
+[2.206080] (-) TimerEvent: {}
+[2.306409] (-) TimerEvent: {}
+[2.406715] (-) TimerEvent: {}
+[2.507026] (-) TimerEvent: {}
+[2.607340] (-) TimerEvent: {}
+[2.707650] (-) TimerEvent: {}
+[2.808045] (-) TimerEvent: {}
+[2.908334] (-) TimerEvent: {}
+[3.008679] (-) TimerEvent: {}
+[3.108968] (-) TimerEvent: {}
+[3.209273] (-) TimerEvent: {}
+[3.309561] (-) TimerEvent: {}
+[3.409915] (-) TimerEvent: {}
+[3.458177] (camera_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.458566] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.458649] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.458723] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.458785] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.458845] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.458906] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.458964] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.459023] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.459082] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.459159] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.459231] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1\x1b[m\x1b[K:\n'}
+[3.459289] (camera_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImageProcessingNode::camera_image_color_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.459350] (camera_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:56:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.459414] (camera_pkg) StderrLine: {'line': b'   56 |         RCLCPP_INFO(this->get_logger(),\x1b[01;31m\x1b[K"Header color: "+cv_ptr_color->header.frame_id\x1b[m\x1b[K);\n'}
+[3.459472] (camera_pkg) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.459530] (camera_pkg) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.459589] (camera_pkg) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\n'}
+[3.459647] (camera_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rmw/rmw/types.h:28\x1b[m\x1b[K,\n'}
+[3.459705] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/types.h:20\x1b[m\x1b[K,\n'}
+[3.459825] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/log_level.h:22\x1b[m\x1b[K,\n'}
+[3.459887] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/arguments.h:21\x1b[m\x1b[K,\n'}
+[3.459958] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/context.h:28\x1b[m\x1b[K,\n'}
+[3.460015] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26\x1b[m\x1b[K,\n'}
+[3.460072] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30\x1b[m\x1b[K,\n'}
+[3.460130] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.460195] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.460253] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.460310] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1\x1b[m\x1b[K:\n'}
+[3.460368] (camera_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 4 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.460428] (camera_pkg) StderrLine: {'line': b'  479 |   \x1b[01;36m\x1b[Kconst char * format\x1b[m\x1b[K,\n'}
+[3.460486] (camera_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.461185] (camera_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.461310] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.461380] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.461444] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.461506] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.461567] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.461627] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.461693] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.461751] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.461816] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.461874] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.461951] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1\x1b[m\x1b[K:\n'}
+[3.462011] (camera_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ImageProcessingNode::camera_image_depht_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.462085] (camera_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:81:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.462146] (camera_pkg) StderrLine: {'line': b'   81 |         RCLCPP_INFO(this->get_logger(),\x1b[01;31m\x1b[K"Header deapth: "+cv_ptr_depth->header.frame_id\x1b[m\x1b[K);\n'}
+[3.462205] (camera_pkg) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.462263] (camera_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.462326] (camera_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\n'}
+[3.462385] (camera_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rmw/rmw/types.h:28\x1b[m\x1b[K,\n'}
+[3.462443] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/types.h:20\x1b[m\x1b[K,\n'}
+[3.462501] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/log_level.h:22\x1b[m\x1b[K,\n'}
+[3.462559] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/arguments.h:21\x1b[m\x1b[K,\n'}
+[3.462617] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/context.h:28\x1b[m\x1b[K,\n'}
+[3.462675] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26\x1b[m\x1b[K,\n'}
+[3.462751] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30\x1b[m\x1b[K,\n'}
+[3.462824] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.462881] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.462939] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.462997] (camera_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1\x1b[m\x1b[K:\n'}
+[3.463055] (camera_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 4 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.463115] (camera_pkg) StderrLine: {'line': b'  479 |   \x1b[01;36m\x1b[Kconst char * format\x1b[m\x1b[K,\n'}
+[3.463174] (camera_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.510019] (-) TimerEvent: {}
+[3.610303] (-) TimerEvent: {}
+[3.710611] (-) TimerEvent: {}
+[3.810915] (-) TimerEvent: {}
+[3.911221] (-) TimerEvent: {}
+[4.011502] (-) TimerEvent: {}
+[4.111841] (-) TimerEvent: {}
+[4.212140] (-) TimerEvent: {}
+[4.312468] (-) TimerEvent: {}
+[4.412812] (-) TimerEvent: {}
+[4.513128] (-) TimerEvent: {}
+[4.613470] (-) TimerEvent: {}
+[4.713779] (-) TimerEvent: {}
+[4.814097] (-) TimerEvent: {}
+[4.914401] (-) TimerEvent: {}
+[5.014712] (-) TimerEvent: {}
+[5.115019] (-) TimerEvent: {}
+[5.215340] (-) TimerEvent: {}
+[5.315679] (-) TimerEvent: {}
+[5.416034] (-) TimerEvent: {}
+[5.516334] (-) TimerEvent: {}
+[5.616638] (-) TimerEvent: {}
+[5.716951] (-) TimerEvent: {}
+[5.817236] (-) TimerEvent: {}
+[5.917537] (-) TimerEvent: {}
+[6.017839] (-) TimerEvent: {}
+[6.118147] (-) TimerEvent: {}
+[6.218470] (-) TimerEvent: {}
+[6.318776] (-) TimerEvent: {}
+[6.389574] (camera_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_processing.dir/build.make:76: CMakeFiles/image_processing.dir/src/image_processing.cpp.o] Error 1\n'}
+[6.389957] (camera_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processing.dir/all] Error 2\n'}
+[6.390308] (camera_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.392510] (camera_pkg) CommandEnded: {'returncode': 2}
+[6.418905] (-) TimerEvent: {}
+[6.494164] (camera_pkg) JobEnded: {'identifier': 'camera_pkg', 'rc': 2}
+[6.504895] (-) EventReactorShutdown: {}

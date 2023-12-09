@@ -1,0 +1,7 @@
+#-----------------------------------------------------------------------------
+#led_number: Define o led que sera ligado quando o serviço for chamado
+#state: Define o estado que o led será definido quando o serviço for chamado
+#success: Informa se o serviço foi realizado com sucesso
+#-----------------------------------------------------------------------------
+int64 led_number
+bool state

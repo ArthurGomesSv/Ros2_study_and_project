@@ -1,0 +1,50 @@
+[0.071s] Invoking command in '/home/arthur/ros2_ws/build/camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/camera_pkg -- -j4 -l4
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target image_processing[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processing.dir/src/image_processing.cpp.o[0m
+[3.304s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.305s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[3.305s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:[m[K In member function ‘[01m[Kvoid ImageProcessingNode::get_ball_position()[m[K’:
+[3.305s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:83:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<cv::Vec<float, 3> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.305s]    83 |       RCLCPP_INFO(this->get_logger(),[01;35m[K"circles detct = %d"[m[K,[32m[Kcircles.size()[m[K);
+[3.305s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~~~[m[K
+[3.305s]       |                                                                       [32m[K|[m[K
+[3.305s]       |                                                                       [32m[Kstd::vector<cv::Vec<float, 3> >::size_type {aka long unsigned int}[m[K
+[3.305s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:83:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.305s]    83 |       RCLCPP_INFO(this->get_logger(),"circles detct = [01;36m[K%d[m[K",circles.size());
+[3.305s]       |                                                       [01;36m[K~^[m[K
+[3.305s]       |                                                        [01;36m[K|[m[K
+[3.305s]       |                                                        [01;36m[Kint[m[K
+[3.305s]       |                                                       [32m[K%ld[m[K
+[9.835s] [100%] [32m[1mLinking CXX executable image_processing[0m
+[10.530s] [100%] Built target image_processing
+[10.542s] Invoked command in '/home/arthur/ros2_ws/build/camera_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/camera_pkg -- -j4 -l4
+[10.583s] Invoking command in '/home/arthur/ros2_ws/build/camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arthur/ros2_ws/build/camera_pkg
+[10.592s] -- Install configuration: ""
+[10.592s] -- Installing: /home/arthur/ros2_ws/install/camera_pkg/lib/camera_pkg/image_processing
+[10.597s] -- Set runtime path of "/home/arthur/ros2_ws/install/camera_pkg/lib/camera_pkg/image_processing" to ""
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/package_run_dependencies/camera_pkg
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/parent_prefix_path/camera_pkg
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.sh
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.dsv
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/path.sh
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/path.dsv
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.bash
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.sh
+[10.598s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.zsh
+[10.599s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.dsv
+[10.599s] -- Installing: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/package.dsv
+[10.599s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/packages/camera_pkg
+[10.599s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig.cmake
+[10.599s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig-version.cmake
+[10.599s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/package.xml
+[10.601s] Invoked command in '/home/arthur/ros2_ws/build/camera_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arthur/ros2_ws/build/camera_pkg

@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000255] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000322] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/arthur/ros2_ws/install/my_robot_interfaces')])}
+[0.000352] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.099183] (-) TimerEvent: {}
+[0.126095] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.153524] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.156173] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arthur/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/arthur/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1468'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1809'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3717'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:31604'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1628,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1628'), ('INVOCATION_ID', 'cb172e2d12424c9ab86df690ce459e70'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NC01D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:30842827-a8d5-4df5-a4fd-7ac69a9620d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.199458] (-) TimerEvent: {}
+[0.299810] (-) TimerEvent: {}
+[0.400384] (-) TimerEvent: {}
+[0.501022] (-) TimerEvent: {}
+[0.558694] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601216] (-) TimerEvent: {}
+[0.701691] (-) TimerEvent: {}
+[0.801988] (-) TimerEvent: {}
+[0.902452] (-) TimerEvent: {}
+[0.907860] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.002643] (-) TimerEvent: {}
+[1.103185] (-) TimerEvent: {}
+[1.137199] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.192558] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.203368] (-) TimerEvent: {}
+[1.245885] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.303527] (-) TimerEvent: {}
+[1.319290] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401299] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403611] (-) TimerEvent: {}
+[1.503905] (-) TimerEvent: {}
+[1.604310] (-) TimerEvent: {}
+[1.672468] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.690648] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.704502] (-) TimerEvent: {}
+[1.805005] (-) TimerEvent: {}
+[1.905390] (-) TimerEvent: {}
+[2.005980] (-) TimerEvent: {}
+[2.106475] (-) TimerEvent: {}
+[2.160341] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.206706] (-) TimerEvent: {}
+[2.307055] (-) TimerEvent: {}
+[2.407555] (-) TimerEvent: {}
+[2.507845] (-) TimerEvent: {}
+[2.602710] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[2.608025] (-) TimerEvent: {}
+[2.708440] (-) TimerEvent: {}
+[2.808715] (-) TimerEvent: {}
+[2.850411] (my_cpp_pkg) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/arthur/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[2.908832] (-) TimerEvent: {}
+[2.977359] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.009066] (-) TimerEvent: {}
+[3.109414] (-) TimerEvent: {}
+[3.210001] (-) TimerEvent: {}
+[3.310670] (-) TimerEvent: {}
+[3.375743] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.384276] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/arthur/ros2_ws/build/my_cpp_pkg\n'}
+[3.410817] (-) TimerEvent: {}
+[3.466993] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[3.471939] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[3.493310] (my_cpp_pkg) StdoutLine: {'line': b'[ 11%] Built target robot_news_station\n'}
+[3.496088] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[3.498227] (my_cpp_pkg) StdoutLine: {'line': b'[ 22%] Built target smartphone\n'}
+[3.505383] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target number_counter\x1b[0m\n'}
+[3.510945] (-) TimerEvent: {}
+[3.518278] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_server\x1b[0m\n'}
+[3.527146] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[3.528108] (my_cpp_pkg) StdoutLine: {'line': b'[ 38%] Built target cpp_node\n'}
+[3.528246] (my_cpp_pkg) StdoutLine: {'line': b'[ 44%] Built target number_counter\n'}
+[3.539631] (my_cpp_pkg) StdoutLine: {'line': b'[ 55%] Built target add_two_ints_server\n'}
+[3.549070] (my_cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target add_two_ints_client_no_oop\n'}
+[3.562052] (my_cpp_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery_node.cpp.o\x1b[0m\n'}
+[3.587787] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client\x1b[0m\n'}
+[3.594448] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hw_status_publisher\x1b[0m\n'}
+[3.607845] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target add_two_ints_client\n'}
+[3.611049] (-) TimerEvent: {}
+[3.614582] (my_cpp_pkg) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o\x1b[0m\n'}
+[3.711178] (-) TimerEvent: {}
+[3.811486] (-) TimerEvent: {}
+[3.911778] (-) TimerEvent: {}
+[4.012074] (-) TimerEvent: {}
+[4.112374] (-) TimerEvent: {}
+[4.212688] (-) TimerEvent: {}
+[4.312988] (-) TimerEvent: {}
+[4.413286] (-) TimerEvent: {}
+[4.513599] (-) TimerEvent: {}
+[4.613918] (-) TimerEvent: {}
+[4.714224] (-) TimerEvent: {}
+[4.814549] (-) TimerEvent: {}
+[4.914860] (-) TimerEvent: {}
+[5.015167] (-) TimerEvent: {}
+[5.115496] (-) TimerEvent: {}
+[5.215816] (-) TimerEvent: {}
+[5.316102] (-) TimerEvent: {}
+[5.416387] (-) TimerEvent: {}
+[5.516678] (-) TimerEvent: {}
+[5.616967] (-) TimerEvent: {}
+[5.717260] (-) TimerEvent: {}
+[5.817561] (-) TimerEvent: {}
+[5.917864] (-) TimerEvent: {}
+[6.018133] (-) TimerEvent: {}
+[6.118438] (-) TimerEvent: {}
+[6.218749] (-) TimerEvent: {}
+[6.319059] (-) TimerEvent: {}
+[6.419354] (-) TimerEvent: {}
+[6.519651] (-) TimerEvent: {}
+[6.619952] (-) TimerEvent: {}
+[6.720255] (-) TimerEvent: {}
+[6.820556] (-) TimerEvent: {}
+[6.920863] (-) TimerEvent: {}
+[7.021171] (-) TimerEvent: {}
+[7.121480] (-) TimerEvent: {}
+[7.221790] (-) TimerEvent: {}
+[7.322082] (-) TimerEvent: {}
+[7.422404] (-) TimerEvent: {}
+[7.522701] (-) TimerEvent: {}
+[7.585184] (my_cpp_pkg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable battery_node\x1b[0m\n'}
+[7.622821] (-) TimerEvent: {}
+[7.723119] (-) TimerEvent: {}
+[7.823421] (-) TimerEvent: {}
+[7.923681] (-) TimerEvent: {}
+[8.023993] (-) TimerEvent: {}
+[8.112039] (my_cpp_pkg) StdoutLine: {'line': b'[ 94%] Built target battery_node\n'}
+[8.124105] (-) TimerEvent: {}
+[8.224403] (-) TimerEvent: {}
+[8.264296] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hw_status_publisher\x1b[0m\n'}
+[8.324526] (-) TimerEvent: {}
+[8.424835] (-) TimerEvent: {}
+[8.457972] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target hw_status_publisher\n'}
+[8.470366] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.524979] (-) TimerEvent: {}
+[8.537882] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[8.553828] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arthur/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/arthur/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1468'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1809'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3717'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:31604'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1628,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1628'), ('INVOCATION_ID', 'cb172e2d12424c9ab86df690ce459e70'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NC01D2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:30842827-a8d5-4df5-a4fd-7ac69a9620d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[8.566227] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.586217] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[8.612225] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[8.625293] (-) TimerEvent: {}
+[8.631379] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[8.640888] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[8.654445] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[8.678379] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[8.698223] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[8.722401] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher\n'}
+[8.725458] (-) TimerEvent: {}
+[8.728155] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""\n'}
+[8.728806] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery_node\n'}
+[8.732512] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery_node" to ""\n'}
+[8.733055] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[8.751948] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[8.752819] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.753545] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.754225] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[8.754535] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[8.756093] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[8.756465] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[8.756759] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[8.757315] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[8.757957] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[8.758286] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[8.758715] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[8.759078] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[8.759380] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[8.763621] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.825777] (-) TimerEvent: {}
+[8.926238] (-) TimerEvent: {}
+[8.963144] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[8.964128] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+/home/arthur/ros2_ws/install/camera_pkg/lib/camera_pkg/image_processing
+/home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/package_run_dependencies/camera_pkg
+/home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/parent_prefix_path/camera_pkg
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.sh
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.dsv
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/path.sh
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/path.dsv
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.bash
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.sh
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.zsh
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.dsv
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/package.dsv
+/home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/packages/camera_pkg
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig.cmake
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig-version.cmake
+/home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/package.xml

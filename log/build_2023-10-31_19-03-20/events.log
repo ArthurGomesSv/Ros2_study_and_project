@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000274] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000377] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.099138] (-) TimerEvent: {}
+[0.115971] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.132234] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.133039] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arthur/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/arthur/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1428'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1767'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3128'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:32890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1586,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1586'), ('INVOCATION_ID', '1604f18405c848eb9b6e455d429d79d3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LLPXD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b0f8712b-e5a5-4d9e-9604-fb6b304bb484'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/build/my_py_pkg:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.199300] (-) TimerEvent: {}
+[0.299844] (-) TimerEvent: {}
+[0.400329] (-) TimerEvent: {}
+[0.500894] (-) TimerEvent: {}
+[0.599604] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601064] (-) TimerEvent: {}
+[0.701548] (-) TimerEvent: {}
+[0.802005] (-) TimerEvent: {}
+[0.902304] (-) TimerEvent: {}
+[1.002721] (-) TimerEvent: {}
+[1.103110] (-) TimerEvent: {}
+[1.114760] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.203260] (-) TimerEvent: {}
+[1.303846] (-) TimerEvent: {}
+[1.404398] (-) TimerEvent: {}
+[1.458740] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.499076] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.504568] (-) TimerEvent: {}
+[1.513787] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.567992] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.604755] (-) TimerEvent: {}
+[1.678393] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.704959] (-) TimerEvent: {}
+[1.805488] (-) TimerEvent: {}
+[1.906074] (-) TimerEvent: {}
+[1.946200] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.964159] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.006280] (-) TimerEvent: {}
+[2.106858] (-) TimerEvent: {}
+[2.207320] (-) TimerEvent: {}
+[2.307663] (-) TimerEvent: {}
+[2.345430] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.407862] (-) TimerEvent: {}
+[2.508483] (-) TimerEvent: {}
+[2.608801] (-) TimerEvent: {}
+[2.709142] (-) TimerEvent: {}
+[2.765964] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[2.809290] (-) TimerEvent: {}
+[2.909685] (-) TimerEvent: {}
+[3.010097] (-) TimerEvent: {}
+[3.110567] (-) TimerEvent: {}
+[3.114143] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.210878] (-) TimerEvent: {}
+[3.311578] (-) TimerEvent: {}
+[3.328586] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.334863] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/arthur/ros2_ws/build/my_cpp_pkg\n'}
+[3.403919] (my_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[3.411667] (-) TimerEvent: {}
+[3.415302] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[3.433727] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target cpp_node\n'}
+[3.441567] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[3.461822] (my_cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target robot_news_station\n'}
+[3.511876] (-) TimerEvent: {}
+[3.612479] (-) TimerEvent: {}
+[3.712785] (-) TimerEvent: {}
+[3.813123] (-) TimerEvent: {}
+[3.913557] (-) TimerEvent: {}
+[4.014060] (-) TimerEvent: {}
+[4.114348] (-) TimerEvent: {}
+[4.214809] (-) TimerEvent: {}
+[4.315198] (-) TimerEvent: {}
+[4.415518] (-) TimerEvent: {}
+[4.515837] (-) TimerEvent: {}
+[4.616197] (-) TimerEvent: {}
+[4.716519] (-) TimerEvent: {}
+[4.816818] (-) TimerEvent: {}
+[4.917137] (-) TimerEvent: {}
+[5.017454] (-) TimerEvent: {}
+[5.117772] (-) TimerEvent: {}
+[5.218087] (-) TimerEvent: {}
+[5.318428] (-) TimerEvent: {}
+[5.418756] (-) TimerEvent: {}
+[5.519083] (-) TimerEvent: {}
+[5.619404] (-) TimerEvent: {}
+[5.719720] (-) TimerEvent: {}
+[5.820042] (-) TimerEvent: {}
+[5.920359] (-) TimerEvent: {}
+[6.020680] (-) TimerEvent: {}
+[6.120997] (-) TimerEvent: {}
+[6.134303] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:19:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[6.134496] (my_cpp_pkg) StderrLine: {'line': b'   19 |     rclcpp::Subscription<example_interfaces::msg::String>\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscriber_;\n'}
+[6.134570] (my_cpp_pkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.134636] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.145077] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:19:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.145230] (my_cpp_pkg) StderrLine: {'line': b'   19 |     rclcpp::Subscription<example_interfaces::msg::String>SharedPtr \x1b[01;31m\x1b[Ksubscriber_\x1b[m\x1b[K;\n'}
+[6.145304] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.145696] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSmartPhoneNode::SmartPhoneNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.145803] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:7:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<example_interfaces::msg::String_<std::allocator<void> > >::Subscription()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.145872] (my_cpp_pkg) StderrLine: {'line': b'    7 |     SmartPhoneNode() : Node("smartphone"\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[6.145934] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.150690] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[6.150840] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.150914] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.150978] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.151140] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.151202] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.151268] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.151329] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.151387] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:1\x1b[m\x1b[K:\n'}
+[6.151451] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = example_interfaces::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = example_interfaces::msg::String_<std::allocator<void> >; ROSMessageT = example_interfaces::msg::String_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<example_interfaces::msg::String_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<example_interfaces::msg::String_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<example_interfaces::msg::String_<std::allocator<void> > > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.151534] (my_cpp_pkg) StderrLine: {'line': b'  130 |   \x1b[01;36m\x1b[KSubscription\x1b[m\x1b[K(\n'}
+[6.151593] (my_cpp_pkg) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.152583] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 8 arguments, 0 provided\n'}
+[6.160032] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.160194] (my_cpp_pkg) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[Ksubscriber_\x1b[m\x1b[K = this->create_subscription<example_interfaces::msg::String>("robot_news",10,std::bind(&callbackRobotNews,this,std::placeholders::_1));\n'}
+[6.160264] (my_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.170522] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:9:109:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say \xe2\x80\x98\x1b[01m\x1b[K&SmartPhoneNode::callbackRobotNews\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.170711] (my_cpp_pkg) StderrLine: {'line': b'    9 |         subscriber_ = this->create_subscription<example_interfaces::msg::String>("robot_news",10,std::bind(&\x1b[01;31m\x1b[KcallbackRobotNews\x1b[m\x1b[K,this,std::placeholders::_1));\n'}
+[6.170805] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.221242] (-) TimerEvent: {}
+[6.321541] (-) TimerEvent: {}
+[6.421851] (-) TimerEvent: {}
+[6.522179] (-) TimerEvent: {}
+[6.622494] (-) TimerEvent: {}
+[6.722810] (-) TimerEvent: {}
+[6.823068] (-) TimerEvent: {}
+[6.923369] (-) TimerEvent: {}
+[7.023684] (-) TimerEvent: {}
+[7.124000] (-) TimerEvent: {}
+[7.224314] (-) TimerEvent: {}
+[7.324632] (-) TimerEvent: {}
+[7.424924] (-) TimerEvent: {}
+[7.525217] (-) TimerEvent: {}
+[7.625529] (-) TimerEvent: {}
+[7.725847] (-) TimerEvent: {}
+[7.826177] (-) TimerEvent: {}
+[7.926499] (-) TimerEvent: {}
+[8.026825] (-) TimerEvent: {}
+[8.127120] (-) TimerEvent: {}
+[8.227408] (-) TimerEvent: {}
+[8.327697] (-) TimerEvent: {}
+[8.396746] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1\n'}
+[8.397358] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2\n'}
+[8.397500] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.399713] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[8.427900] (-) TimerEvent: {}
+[8.528166] (-) TimerEvent: {}
+[8.598149] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[8.608788] (-) EventReactorShutdown: {}

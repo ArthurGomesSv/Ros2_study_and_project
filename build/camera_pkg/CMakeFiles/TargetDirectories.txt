@@ -1,0 +1,10 @@
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/uninstall.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/camera_pkg_uninstall.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/image_processing.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/test.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/edit_cache.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/rebuild_cache.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/list_install_components.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/install.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/install/local.dir
+/home/arthur/ros2_ws/build/camera_pkg/CMakeFiles/install/strip.dir

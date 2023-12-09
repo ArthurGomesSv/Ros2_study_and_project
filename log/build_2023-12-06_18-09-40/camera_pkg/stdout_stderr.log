@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target image_processing[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_processing.dir/src/image_processing.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_processing[0m
+/usr/bin/ld: CMakeFiles/image_processing.dir/src/image_processing.cpp.o: in function `rs2::error::error(rs2_error*)':
+image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x32): undefined reference to `rs2_get_error_message'
+/usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x77): undefined reference to `rs2_get_failed_function'
+/usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x9e): undefined reference to `rs2_get_failed_function'
+/usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x101): undefined reference to `rs2_get_failed_args'
+/usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x128): undefined reference to `rs2_get_failed_args'
+/usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x18b): undefined reference to `rs2_get_librealsense_exception_type'
+/usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x19e): undefined reference to `rs2_free_error'
+/usr/bin/ld: CMakeFiles/image_processing.dir/src/image_processing.cpp.o: in function `rs2::error::handle(rs2_error*)':
+image_processing.cpp:(.text._ZN3rs25error6handleEP9rs2_error[_ZN3rs25error6handleEP9rs2_error]+0x26): undefined reference to `rs2_get_librealsense_exception_type'
+/usr/bin/ld: CMakeFiles/image_processing.dir/src/image_processing.cpp.o: in function `rs2::context::context()':
+image_processing.cpp:(.text._ZN3rs27contextC2Ev[_ZN3rs27contextC5Ev]+0x41): undefined reference to `rs2_create_context'
+/usr/bin/ld: image_processing.cpp:(.text._ZN3rs27contextC2Ev[_ZN3rs27contextC5Ev]+0x4f): undefined reference to `rs2_delete_context'
+/usr/bin/ld: CMakeFiles/image_processing.dir/src/image_processing.cpp.o: in function `rs2::pipeline::pipeline(rs2::context)':
+image_processing.cpp:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x52): undefined reference to `rs2_create_pipeline'
+/usr/bin/ld: image_processing.cpp:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x60): undefined reference to `rs2_delete_pipeline'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/image_processing.dir/build.make:232: image_processing] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

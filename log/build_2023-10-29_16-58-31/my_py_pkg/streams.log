@@ -1,0 +1,24 @@
+[0.730s] Invoking command in '/home/arthur/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/arthur/ros2_ws/build/my_py_pkg/prefix_override:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/arthur/ros2_ws/build/my_py_pkg/build install --record /home/arthur/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.974s] running egg_info
+[0.974s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.975s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.975s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.975s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.975s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.977s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.978s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.979s] running build
+[0.979s] running build_py
+[0.979s] copying my_py_pkg/my_first_node.py -> /home/arthur/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.979s] running install
+[0.979s] running install_lib
+[0.980s] copying /home/arthur/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.981s] byte-compiling /home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[0.981s] running install_data
+[0.982s] running install_egg_info
+[0.983s] removing '/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.984s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.985s] running install_scripts
+[1.004s] Installing py_node script to /home/arthur/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.005s] writing list of installed files to '/home/arthur/ros2_ws/build/my_py_pkg/install.log'
+[1.028s] Invoked command in '/home/arthur/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/arthur/ros2_ws/build/my_py_pkg/prefix_override:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/arthur/ros2_ws/build/my_py_pkg/build install --record /home/arthur/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

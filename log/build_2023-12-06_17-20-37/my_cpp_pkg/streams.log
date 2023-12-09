@@ -1,0 +1,65 @@
+[0.102s] Invoking command in '/home/arthur/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arthur/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.697s] [  4%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[0.714s] [ 18%] [32m[1mLinking CXX executable robot_news_station[0m
+[0.714s] [ 18%] [32m[1mLinking CXX executable number_counter[0m
+[0.714s] [ 18%] [32m[1mLinking CXX executable smartphone[0m
+[4.363s] [ 22%] Built target robot_news_station
+[4.547s] [ 27%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[4.551s] [ 31%] Built target smartphone
+[4.635s] [ 36%] Built target number_counter
+[4.737s] [ 40%] [32m[1mLinking CXX executable add_two_ints_client_no_oop[0m
+[4.761s] [ 45%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[4.919s] [ 50%] Built target add_two_ints_server
+[5.096s] [ 54%] Built target add_two_ints_client
+[5.190s] [ 59%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[5.325s] [ 63%] [32m[1mLinking CXX executable battery_node[0m
+[5.378s] [ 68%] Built target add_two_ints_client_no_oop
+[5.659s] [ 72%] [32m[1mLinking CXX executable led_panel_node[0m
+[6.250s] [ 77%] Built target battery_node
+[6.278s] [ 81%] Built target hw_status_publisher
+[6.407s] [ 86%] [32m[1mLinking CXX executable holder_ball_robot[0m
+[6.443s] [ 90%] Built target led_panel_node
+[7.252s] [ 95%] Built target holder_ball_robot
+[7.772s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[7.913s] [100%] Built target cpp_node
+[7.926s] Invoked command in '/home/arthur/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arthur/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[8.006s] Invoking command in '/home/arthur/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arthur/ros2_ws/build/my_cpp_pkg
+[8.024s] -- Install configuration: ""
+[8.038s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[8.041s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[8.064s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[8.069s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[8.094s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[8.097s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[8.114s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[8.118s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop" to ""
+[8.139s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[8.143s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[8.163s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[8.177s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+[8.193s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[8.202s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[8.224s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher
+[8.226s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher" to ""
+[8.247s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery_node
+[8.248s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery_node" to ""
+[8.266s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_node
+[8.268s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_node" to ""
+[8.291s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/holder_ball_robot
+[8.302s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/holder_ball_robot" to ""
+[8.303s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[8.314s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[8.314s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[8.315s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[8.315s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[8.315s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[8.315s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[8.316s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[8.316s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[8.316s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[8.316s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[8.323s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[8.323s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[8.324s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[8.324s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[8.330s] Invoked command in '/home/arthur/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arthur/ros2_ws/build/my_cpp_pkg

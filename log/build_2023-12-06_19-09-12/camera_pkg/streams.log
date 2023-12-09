@@ -1,0 +1,42 @@
+[0.069s] Invoking command in '/home/arthur/ros2_ws/build/camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/camera_pkg -- -j4 -l4
+[0.096s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.249s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.281s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.284s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.290s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.384s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.386s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.511s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.689s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.830s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.846s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[0.961s] -- Configuring done
+[1.040s] -- Generating done
+[1.045s] -- Build files have been written to: /home/arthur/ros2_ws/build/camera_pkg
+[1.105s] [35m[1mConsolidate compiler generated dependencies of target image_processing[0m
+[1.130s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processing.dir/src/image_processing.cpp.o[0m
+[13.764s] [100%] [32m[1mLinking CXX executable image_processing[0m
+[15.860s] [100%] Built target image_processing
+[15.873s] Invoked command in '/home/arthur/ros2_ws/build/camera_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/camera_pkg -- -j4 -l4
+[15.913s] Invoking command in '/home/arthur/ros2_ws/build/camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arthur/ros2_ws/build/camera_pkg
+[15.921s] -- Install configuration: ""
+[15.921s] -- Installing: /home/arthur/ros2_ws/install/camera_pkg/lib/camera_pkg/image_processing
+[15.926s] -- Set runtime path of "/home/arthur/ros2_ws/install/camera_pkg/lib/camera_pkg/image_processing" to ""
+[15.926s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/package_run_dependencies/camera_pkg
+[15.926s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/parent_prefix_path/camera_pkg
+[15.926s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.sh
+[15.926s] -- Installing: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.dsv
+[15.926s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/path.sh
+[15.926s] -- Installing: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/path.dsv
+[15.927s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.bash
+[15.927s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.sh
+[15.927s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.zsh
+[15.927s] -- Installing: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.dsv
+[15.927s] -- Installing: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/package.dsv
+[15.927s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/packages/camera_pkg
+[15.927s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig.cmake
+[15.927s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig-version.cmake
+[15.927s] -- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/package.xml
+[15.929s] Invoked command in '/home/arthur/ros2_ws/build/camera_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arthur/ros2_ws/build/camera_pkg

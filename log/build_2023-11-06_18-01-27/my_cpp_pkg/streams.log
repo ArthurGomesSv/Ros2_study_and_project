@@ -1,0 +1,58 @@
+[0.144s] Invoking command in '/home/arthur/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.764s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.401s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.789s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.830s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.858s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.031s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.277s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.295s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.796s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.218s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.654s] -- Configuring done
+[4.125s] -- Generating done
+[4.133s] -- Build files have been written to: /home/arthur/ros2_ws/build/my_cpp_pkg
+[4.221s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[4.227s] [35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[4.234s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[4.238s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[4.268s] [ 14%] Built target smartphone
+[4.271s] [ 21%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[4.274s] [ 35%] Built target cpp_node
+[4.276s] [ 50%] Built target robot_news_station
+[4.323s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[4.327s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[4.332s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[4.367s] [ 64%] Built target add_two_ints_server
+[4.367s] [ 78%] Built target add_two_ints_client
+[4.369s] [ 92%] Built target add_two_ints_client_no_oop
+[14.162s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[15.539s] [100%] Built target number_counter
+[15.589s] Invoked command in '/home/arthur/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[15.752s] Invoking command in '/home/arthur/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arthur/ros2_ws/build/my_cpp_pkg
+[15.780s] -- Install configuration: ""
+[15.822s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[15.847s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[15.866s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[15.876s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[15.890s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[15.913s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[15.943s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter
+[15.960s] -- Set runtime path of "/home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""
+[15.960s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[15.976s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[15.976s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[15.977s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[15.977s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[15.978s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[15.978s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[15.979s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[15.979s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[15.979s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[15.979s] -- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[15.980s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[15.980s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[15.981s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[15.981s] -- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[15.986s] Invoked command in '/home/arthur/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arthur/ros2_ws/build/my_cpp_pkg

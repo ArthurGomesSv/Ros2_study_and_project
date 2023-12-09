@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000559] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000656] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000698] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000773] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000820] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000884] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000910] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/arthur/ros2_ws/install/my_robot_interfaces')])}
+[0.000959] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.070315] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.071086] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.071921] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arthur/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/arthur/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1545'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2263'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:33038'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1694,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1694'), ('INVOCATION_ID', '54622ade00d342419f97a4ea3159c238'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VBTGE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:46576944-bb69-41d8-80cd-d0be2d5fdc14'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099544] (-) TimerEvent: {}
+[0.137665] (my_cpp_pkg) StdoutLine: {'line': b'[  9%] Built target cpp_node\n'}
+[0.137868] (my_cpp_pkg) StdoutLine: {'line': b'[ 22%] Built target robot_news_station\n'}
+[0.138087] (my_cpp_pkg) StdoutLine: {'line': b'[ 27%] Built target smartphone\n'}
+[0.151356] (my_cpp_pkg) StdoutLine: {'line': b'[ 36%] Built target number_counter\n'}
+[0.167629] (my_cpp_pkg) StdoutLine: {'line': b'[ 54%] Built target add_two_ints_client_no_oop\n'}
+[0.167904] (my_cpp_pkg) StdoutLine: {'line': b'[ 54%] Built target add_two_ints_client\n'}
+[0.168045] (my_cpp_pkg) StdoutLine: {'line': b'[ 63%] Built target add_two_ints_server\n'}
+[0.181235] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target holder_ball_robot\x1b[0m\n'}
+[0.181470] (my_cpp_pkg) StdoutLine: {'line': b'[ 72%] Built target hw_status_publisher\n'}
+[0.197682] (my_cpp_pkg) StdoutLine: {'line': b'[ 81%] Built target battery_node\n'}
+[0.197967] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] Built target led_panel_node\n'}
+[0.199639] (-) TimerEvent: {}
+[0.202492] (my_cpp_pkg) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/holder_ball_robot.dir/src/holder_ball_robot.cpp.o\x1b[0m\n'}
+[0.299762] (-) TimerEvent: {}
+[0.400068] (-) TimerEvent: {}
+[0.500341] (-) TimerEvent: {}
+[0.600640] (-) TimerEvent: {}
+[0.700961] (-) TimerEvent: {}
+[0.801270] (-) TimerEvent: {}
+[0.901578] (-) TimerEvent: {}
+[1.001873] (-) TimerEvent: {}
+[1.102187] (-) TimerEvent: {}
+[1.202501] (-) TimerEvent: {}
+[1.302800] (-) TimerEvent: {}
+[1.403092] (-) TimerEvent: {}
+[1.503386] (-) TimerEvent: {}
+[1.603678] (-) TimerEvent: {}
+[1.703982] (-) TimerEvent: {}
+[1.804356] (-) TimerEvent: {}
+[1.904669] (-) TimerEvent: {}
+[2.004970] (-) TimerEvent: {}
+[2.105284] (-) TimerEvent: {}
+[2.205594] (-) TimerEvent: {}
+[2.305934] (-) TimerEvent: {}
+[2.406237] (-) TimerEvent: {}
+[2.506548] (-) TimerEvent: {}
+[2.606859] (-) TimerEvent: {}
+[2.707180] (-) TimerEvent: {}
+[2.807486] (-) TimerEvent: {}
+[2.907773] (-) TimerEvent: {}
+[3.008066] (-) TimerEvent: {}
+[3.108397] (-) TimerEvent: {}
+[3.208682] (-) TimerEvent: {}
+[3.308986] (-) TimerEvent: {}
+[3.409351] (-) TimerEvent: {}
+[3.509654] (-) TimerEvent: {}
+[3.609958] (-) TimerEvent: {}
+[3.710263] (-) TimerEvent: {}
+[3.810567] (-) TimerEvent: {}
+[3.910873] (-) TimerEvent: {}
+[4.011184] (-) TimerEvent: {}
+[4.111506] (-) TimerEvent: {}
+[4.211795] (-) TimerEvent: {}
+[4.312102] (-) TimerEvent: {}
+[4.412396] (-) TimerEvent: {}
+[4.512707] (-) TimerEvent: {}
+[4.612997] (-) TimerEvent: {}
+[4.713306] (-) TimerEvent: {}
+[4.813615] (-) TimerEvent: {}
+[4.913928] (-) TimerEvent: {}
+[5.014219] (-) TimerEvent: {}
+[5.114528] (-) TimerEvent: {}
+[5.214812] (-) TimerEvent: {}
+[5.315121] (-) TimerEvent: {}
+[5.415424] (-) TimerEvent: {}
+[5.515752] (-) TimerEvent: {}
+[5.616055] (-) TimerEvent: {}
+[5.716359] (-) TimerEvent: {}
+[5.816671] (-) TimerEvent: {}
+[5.916984] (-) TimerEvent: {}
+[6.017296] (-) TimerEvent: {}
+[6.117589] (-) TimerEvent: {}
+[6.217903] (-) TimerEvent: {}
+[6.318206] (-) TimerEvent: {}
+[6.418531] (-) TimerEvent: {}
+[6.518819] (-) TimerEvent: {}
+[6.619130] (-) TimerEvent: {}
+[6.719437] (-) TimerEvent: {}
+[6.819719] (-) TimerEvent: {}
+[6.920004] (-) TimerEvent: {}
+[7.020343] (-) TimerEvent: {}
+[7.120629] (-) TimerEvent: {}
+[7.220935] (-) TimerEvent: {}
+[7.321239] (-) TimerEvent: {}
+[7.421541] (-) TimerEvent: {}
+[7.521843] (-) TimerEvent: {}
+[7.622144] (-) TimerEvent: {}
+[7.722472] (-) TimerEvent: {}
+[7.822773] (-) TimerEvent: {}
+[7.923076] (-) TimerEvent: {}
+[8.023384] (-) TimerEvent: {}
+[8.123686] (-) TimerEvent: {}
+[8.223987] (-) TimerEvent: {}
+[8.324333] (-) TimerEvent: {}
+[8.424614] (-) TimerEvent: {}
+[8.524915] (-) TimerEvent: {}
+[8.625217] (-) TimerEvent: {}
+[8.725517] (-) TimerEvent: {}
+[8.825818] (-) TimerEvent: {}
+[8.926100] (-) TimerEvent: {}
+[9.026400] (-) TimerEvent: {}
+[9.126702] (-) TimerEvent: {}
+[9.227004] (-) TimerEvent: {}
+[9.327305] (-) TimerEvent: {}
+[9.427593] (-) TimerEvent: {}
+[9.527895] (-) TimerEvent: {}
+[9.628197] (-) TimerEvent: {}
+[9.728508] (-) TimerEvent: {}
+[9.828788] (-) TimerEvent: {}
+[9.929091] (-) TimerEvent: {}
+[10.029395] (-) TimerEvent: {}
+[10.129694] (-) TimerEvent: {}
+[10.229982] (-) TimerEvent: {}
+[10.330374] (-) TimerEvent: {}
+[10.430885] (-) TimerEvent: {}
+[10.531518] (-) TimerEvent: {}
+[10.632067] (-) TimerEvent: {}
+[10.732373] (-) TimerEvent: {}
+[10.832692] (-) TimerEvent: {}
+[10.932971] (-) TimerEvent: {}
+[11.033268] (-) TimerEvent: {}
+[11.133627] (-) TimerEvent: {}
+[11.233974] (-) TimerEvent: {}
+[11.334318] (-) TimerEvent: {}
+[11.434655] (-) TimerEvent: {}
+[11.535074] (-) TimerEvent: {}
+[11.567937] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable holder_ball_robot\x1b[0m\n'}
+[11.635192] (-) TimerEvent: {}
+[11.735517] (-) TimerEvent: {}
+[11.835847] (-) TimerEvent: {}
+[11.936158] (-) TimerEvent: {}
+[12.036499] (-) TimerEvent: {}
+[12.135662] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target holder_ball_robot\n'}
+[12.136581] (-) TimerEvent: {}
+[12.147995] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.217768] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[12.228994] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arthur/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/arthur/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1545'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2263'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:33038'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1694,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1694'), ('INVOCATION_ID', '54622ade00d342419f97a4ea3159c238'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VBTGE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:46576944-bb69-41d8-80cd-d0be2d5fdc14'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[12.236713] (-) TimerEvent: {}
+[12.237964] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.238265] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[12.238706] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[12.239132] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[12.239526] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[12.239948] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[12.240369] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[12.240743] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[12.241231] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hw_status_publisher\n'}
+[12.241650] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/battery_node\n'}
+[12.242063] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/led_panel_node\n'}
+[12.242305] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[12.242501] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[12.242588] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[12.242773] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[12.242855] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[12.242983] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[12.243103] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[12.243176] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[12.243246] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[12.243315] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[12.243384] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[12.243462] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[12.243531] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[12.243601] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[12.243669] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[12.245136] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.336882] (-) TimerEvent: {}
+[12.433999] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[12.434993] (-) EventReactorShutdown: {}

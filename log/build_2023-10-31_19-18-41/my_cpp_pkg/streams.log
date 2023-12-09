@@ -1,0 +1,13 @@
+[0.069s] Invoking command in '/home/arthur/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/my_cpp_pkg -- -j4 -l4
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.126s] [ 50%] Built target robot_news_station
+[0.126s] [ 66%] Built target cpp_node
+[0.131s] [ 83%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[2.423s] [01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartPhoneNode::SmartPhoneNode()[m[K’:
+[2.424s] [01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:9:109:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&SmartPhoneNode::callbackRobotNews[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.424s]     9 |         subscriber_ = this->create_subscription<example_interfaces::msg::String>("robot_news",10,std::bind(&[01;31m[KcallbackRobotNews[m[K,this,std::placeholders::_1));
+[2.424s]       |                                                                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.743s] gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+[4.743s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2
+[4.743s] gmake: *** [Makefile:146: all] Error 2
+[4.746s] Invoked command in '/home/arthur/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/my_cpp_pkg -- -j4 -l4

@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target number_counter[0m
+[ 50%] Built target smartphone
+[ 50%] Built target robot_news_station
+[ 75%] Built target cpp_node
+[ 87%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::NumberCounterNode()[m[K’:
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:10:94:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&NumberCounterNode::callback_number_counter[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   10 |         subscriber_ = this->create_subscription<std_msgs::msg::Int64>("number",10,std::bind(&[01;31m[Kcallback_number_counter[m[K,this,std::placeholders::_1));
+      |                                                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/number_counter.dir/build.make:76: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/number_counter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

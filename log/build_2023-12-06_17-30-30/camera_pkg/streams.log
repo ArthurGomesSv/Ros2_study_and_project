@@ -1,0 +1,299 @@
+[0.094s] Invoking command in '/home/arthur/ros2_ws/build/camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/camera_pkg -- -j4 -l4
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target image_processing[0m
+[0.341s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processing.dir/src/image_processing.cpp.o[0m
+[4.295s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.295s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.297s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.297s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:[m[K In member function ‘[01m[Kvoid ImageProcessingNode::camera_image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.297s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::Mat::at(sensor_msgs::msg::Image_<std::allocator<void> >::_width_type, sensor_msgs::msg::Image_<std::allocator<void> >::_height_type)[m[K’
+[4.297s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;31m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.297s]       |                                                  [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.297s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.297s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.297s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.297s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.298s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1921:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(int)[m[K’
+[4.298s]  1921 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(int i0=0);
+[4.298s]       |                                 [01;36m[K^~[m[K
+[4.298s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1921:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.298s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.298s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.299s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.299s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[4.299s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.299s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.299s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.299s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.299s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.299s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.299s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1925:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int) const[m[K’
+[4.299s]  1925 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(int i0=0) const;
+[4.299s]       |                                       [01;36m[K^~[m[K
+[4.299s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1925:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.299s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.299s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.300s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.300s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[4.300s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.300s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.300s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.300s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.300s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.301s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.301s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1930:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(int, int)[m[K’
+[4.301s]  1930 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(int row, int col);
+[4.301s]       |                                 [01;36m[K^~[m[K
+[4.301s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1930:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.301s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.301s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.302s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.302s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[4.302s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.302s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.302s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.302s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.302s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.302s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.302s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1935:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int, int) const[m[K’
+[4.302s]  1935 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(int row, int col) const;
+[4.302s]       |                                       [01;36m[K^~[m[K
+[4.302s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1935:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.302s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.302s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.303s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.303s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[4.303s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.303s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.303s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.303s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.303s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.304s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.304s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1942:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(int, int, int)[m[K’
+[4.304s]  1942 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(int i0, int i1, int i2);
+[4.304s]       |                                 [01;36m[K^~[m[K
+[4.304s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1942:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.304s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.304s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.305s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.305s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[4.305s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.305s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.305s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.305s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.305s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.305s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.305s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1948:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(int, int, int) const[m[K’
+[4.305s]  1948 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(int i0, int i1, int i2) const;
+[4.305s]       |                                       [01;36m[K^~[m[K
+[4.305s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1948:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.305s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.305s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.306s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.306s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[4.306s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.306s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.306s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.306s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.306s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.306s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.306s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1953:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(const int*)[m[K’
+[4.307s]  1953 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(const int* idx);
+[4.307s]       |                                 [01;36m[K^~[m[K
+[4.307s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1953:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.307s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.307s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.307s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[4.308s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.308s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.308s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.308s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.308s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.308s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.308s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1957:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(const int*) const[m[K’
+[4.308s]  1957 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(const int* idx) const;
+[4.308s]       |                                       [01;36m[K^~[m[K
+[4.308s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1957:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.308s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.308s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.309s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.309s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.309s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[4.309s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.309s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.309s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.309s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.309s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.309s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.309s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1960:40:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int n> _Tp& cv::Mat::at(const cv::Vec<int, n>&)[m[K’
+[4.309s]  1960 |     template<typename _Tp, int n> _Tp& [01;36m[Kat[m[K(const Vec<int, n>& idx);
+[4.309s]       |                                        [01;36m[K^~[m[K
+[4.310s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1960:40:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.310s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.310s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.310s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.310s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Vec<int, n>[m[K’ and ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’}
+[4.310s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.311s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.311s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.311s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.311s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.311s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.311s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1962:46:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int n> const _Tp& cv::Mat::at(const cv::Vec<int, n>&) const[m[K’
+[4.311s]  1962 |     template<typename _Tp, int n> const _Tp& [01;36m[Kat[m[K(const Vec<int, n>& idx) const;
+[4.311s]       |                                              [01;36m[K^~[m[K
+[4.311s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1962:46:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.311s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.312s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.312s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.312s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst cv::Vec<int, n>[m[K’ and ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’}
+[4.312s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.312s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.312s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.312s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.312s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.312s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.312s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1968:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp& cv::Mat::at(cv::Point)[m[K’
+[4.312s]  1968 |     template<typename _Tp> _Tp& [01;36m[Kat[m[K(Point pt);
+[4.312s]       |                                 [01;36m[K^~[m[K
+[4.313s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1968:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.313s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.313s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.313s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.313s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[4.314s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.314s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.314s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.314s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[4.314s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[4.314s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:6[m[K:
+[4.314s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1973:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp& cv::Mat::at(cv::Point) const[m[K’
+[4.314s]  1973 |     template<typename _Tp> const _Tp& [01;36m[Kat[m[K(Point pt) const;
+[4.314s]       |                                       [01;36m[K^~[m[K
+[4.314s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:1973:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.314s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.314s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.315s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.315s]                  from [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:1[m[K:
+[4.315s] [01m[K/home/arthur/ros2_ws/src/camera_pkg/src/image_processing.cpp:33:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[4.315s]    33 |       RCLCPP_INFO(this->get_logger(),"Value: %f",[01;36m[KDest->image.at(msg->width/2,msg->height/2)[m[K);
+[4.315s]       |                                                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.183s] gmake[2]: *** [CMakeFiles/image_processing.dir/build.make:76: CMakeFiles/image_processing.dir/src/image_processing.cpp.o] Error 1
+[7.183s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processing.dir/all] Error 2
+[7.183s] gmake: *** [Makefile:146: all] Error 2
+[7.204s] Invoked command in '/home/arthur/ros2_ws/build/camera_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/camera_pkg -- -j4 -l4

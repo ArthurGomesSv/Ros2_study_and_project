@@ -1,0 +1,33 @@
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:19:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 |     rclcpp::Subscription<example_interfaces::msg::String>[01;31m[KSharedPtr[m[K subscriber_;
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                                   [32m[K;[m[K
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:19:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ does not name a type
+   19 |     rclcpp::Subscription<example_interfaces::msg::String>SharedPtr [01;31m[Ksubscriber_[m[K;
+      |                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartPhoneNode::SmartPhoneNode()[m[K’:
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:7:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Subscription<example_interfaces::msg::String_<std::allocator<void> > >::Subscription()[m[K’
+    7 |     SmartPhoneNode() : Node("smartphone"[01;31m[K)[m[K
+      |                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = example_interfaces::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = example_interfaces::msg::String_<std::allocator<void> >; ROSMessageT = example_interfaces::msg::String_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<example_interfaces::msg::String_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<example_interfaces::msg::String_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<example_interfaces::msg::String_<std::allocator<void> > > >][m[K’
+  130 |   [01;36m[KSubscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+    9 |         [01;31m[Ksubscriber_[m[K = this->create_subscription<example_interfaces::msg::String>("robot_news",10,std::bind(&callbackRobotNews,this,std::placeholders::_1));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:9:109:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&SmartPhoneNode::callbackRobotNews[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    9 |         subscriber_ = this->create_subscription<example_interfaces::msg::String>("robot_news",10,std::bind(&[01;31m[KcallbackRobotNews[m[K,this,std::placeholders::_1));
+      |                                                                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

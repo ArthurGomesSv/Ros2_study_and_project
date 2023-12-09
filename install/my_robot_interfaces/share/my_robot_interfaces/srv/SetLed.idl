@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/SetLed.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "-----------------------------------------------------------------------------" "\n"
+      "led_number: Define o led que sera ligado quando o serviço for chamado" "\n"
+      "state: Define o estado que o led será definido quando o serviço for chamado" "\n"
+      "success: Informa se o serviço foi realizado com sucesso" "\n"
+      "-----------------------------------------------------------------------------")
+    struct SetLed_Request {
+      int64 led_number;
+
+      boolean state;
+    };
+    struct SetLed_Response {
+      boolean success;
+    };
+  };
+};

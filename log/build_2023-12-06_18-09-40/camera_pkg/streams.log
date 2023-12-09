@@ -1,0 +1,25 @@
+[0.071s] Invoking command in '/home/arthur/ros2_ws/build/camera_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/camera_pkg -- -j4 -l4
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target image_processing[0m
+[0.145s] [ 50%] [32mBuilding CXX object CMakeFiles/image_processing.dir/src/image_processing.cpp.o[0m
+[5.009s] [100%] [32m[1mLinking CXX executable image_processing[0m
+[5.169s] /usr/bin/ld: CMakeFiles/image_processing.dir/src/image_processing.cpp.o: in function `rs2::error::error(rs2_error*)':
+[5.169s] image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x32): undefined reference to `rs2_get_error_message'
+[5.169s] /usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x77): undefined reference to `rs2_get_failed_function'
+[5.169s] /usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x9e): undefined reference to `rs2_get_failed_function'
+[5.169s] /usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x101): undefined reference to `rs2_get_failed_args'
+[5.169s] /usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x128): undefined reference to `rs2_get_failed_args'
+[5.170s] /usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x18b): undefined reference to `rs2_get_librealsense_exception_type'
+[5.170s] /usr/bin/ld: image_processing.cpp:(.text._ZN3rs25errorC2EP9rs2_error[_ZN3rs25errorC5EP9rs2_error]+0x19e): undefined reference to `rs2_free_error'
+[5.170s] /usr/bin/ld: CMakeFiles/image_processing.dir/src/image_processing.cpp.o: in function `rs2::error::handle(rs2_error*)':
+[5.170s] image_processing.cpp:(.text._ZN3rs25error6handleEP9rs2_error[_ZN3rs25error6handleEP9rs2_error]+0x26): undefined reference to `rs2_get_librealsense_exception_type'
+[5.170s] /usr/bin/ld: CMakeFiles/image_processing.dir/src/image_processing.cpp.o: in function `rs2::context::context()':
+[5.170s] image_processing.cpp:(.text._ZN3rs27contextC2Ev[_ZN3rs27contextC5Ev]+0x41): undefined reference to `rs2_create_context'
+[5.170s] /usr/bin/ld: image_processing.cpp:(.text._ZN3rs27contextC2Ev[_ZN3rs27contextC5Ev]+0x4f): undefined reference to `rs2_delete_context'
+[5.170s] /usr/bin/ld: CMakeFiles/image_processing.dir/src/image_processing.cpp.o: in function `rs2::pipeline::pipeline(rs2::context)':
+[5.170s] image_processing.cpp:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x52): undefined reference to `rs2_create_pipeline'
+[5.170s] /usr/bin/ld: image_processing.cpp:(.text._ZN3rs28pipelineC2ENS_7contextE[_ZN3rs28pipelineC5ENS_7contextE]+0x60): undefined reference to `rs2_delete_pipeline'
+[5.183s] collect2: error: ld returned 1 exit status
+[5.185s] gmake[2]: *** [CMakeFiles/image_processing.dir/build.make:232: image_processing] Error 1
+[5.186s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/image_processing.dir/all] Error 2
+[5.186s] gmake: *** [Makefile:146: all] Error 2
+[5.188s] Invoked command in '/home/arthur/ros2_ws/build/camera_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/camera_pkg -- -j4 -l4

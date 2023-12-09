@@ -1,0 +1,7 @@
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartPhoneNode::SmartPhoneNode()[m[K’:
+[01m[K/home/arthur/ros2_ws/src/my_cpp_pkg/src/smartphone.cpp:9:109:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&SmartPhoneNode::callbackRobotNews[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    9 |         subscriber_ = this->create_subscription<example_interfaces::msg::String>("robot_news",10,std::bind(&[01;31m[KcallbackRobotNews[m[K,this,std::placeholders::_1));
+      |                                                                                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/smartphone.dir/build.make:76: CMakeFiles/smartphone.dir/src/smartphone.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/smartphone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
