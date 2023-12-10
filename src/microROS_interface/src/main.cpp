@@ -11,11 +11,11 @@
 #error This example is only avaliable for Arduino framework with serial transport.
 #endif
 
-u_int32_t pwm;
-u_int8_t pwm_pin = 2;
-u_int8_t pwm_channel = 0;
-u_int32_t pwm_channel_freq = 1000;
-u_int8_t pwm_channel_res = 13;
+const int motorPin = 13;
+const int freq = 50;
+const int canal_A = 0;
+const int resolucao = 12;
+int ciclo_pwm = 0;
 
 std_msgs__msg__Int32 msg_pwm;
 rcl_subscription_t subscriber_;
@@ -38,9 +38,8 @@ void error_loop() {
 void subscriber_callback(const void * msgin)
 {
   const std_msgs__msg__Int32 *msg_pwm = (const std_msgs__msg__Int32 *)msgin;
-
-  ledcWrite(pwm_channel,(u_int32_t)msg_pwm->data);
-
+  ciclo_pwm = map(msg_pwm->data, 0, 4095, 205, 410);
+  ledcWrite(canal_A, ciclo_pwm);
 }
 
 void setup() {
@@ -50,9 +49,14 @@ void setup() {
   delay(2000);
 
   //Pins configs
-  pinMode(pwm_pin,OUTPUT);
-  ledcAttachPin(pwm_pin,pwm_channel);
-  ledcSetup(pwm_channel,pwm_channel_freq,pwm_channel_res);
+  pinMode(motorPin, OUTPUT);
+  ledcSetup(canal_A,freq,resolucao);
+  ledcAttachPin(motorPin, canal_A);
+
+  ledcWrite(canal_A,205);
+  ledcWrite(canal_A,410);
+  ledcWrite(canal_A,205);
+
 
   allocator = rcl_get_default_allocator();
 

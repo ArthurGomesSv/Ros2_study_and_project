@@ -42,9 +42,6 @@ ament_target_dependencies(battery_node rclcpp my_robot_interfaces)
 add_executable(led_panel_node src/led_panel_node.cpp)
 ament_target_dependencies(led_panel_node rclcpp my_robot_interfaces)
 
-add_executable(holder_ball_robot src/holder_ball_robot.cpp)
-ament_target_dependencies(holder_ball_robot rclcpp std_msgs)
-
 install(TARGETS
   cpp_node
   robot_news_station
@@ -56,7 +53,6 @@ install(TARGETS
   hw_status_publisher
   battery_node
   led_panel_node
-  holder_ball_robot
   DESTINATION lib/${PROJECT_NAME}
 )
 

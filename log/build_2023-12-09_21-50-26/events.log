@@ -1,0 +1,259 @@
+[0.000000] (-) TimerEvent: {}
+[0.000688] (-) JobUnselected: {'identifier': 'camera_pkg'}
+[0.000755] (-) JobUnselected: {'identifier': 'control_pkg'}
+[0.001083] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.001185] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001239] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001307] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001331] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001360] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001406] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001431] (communication_pkg) JobQueued: {'identifier': 'communication_pkg', 'dependencies': OrderedDict()}
+[0.001535] (communication_pkg) JobStarted: {'identifier': 'communication_pkg'}
+[0.099731] (-) TimerEvent: {}
+[0.102448] (communication_pkg) JobProgress: {'identifier': 'communication_pkg', 'progress': 'cmake'}
+[0.102936] (communication_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/arthur/ros2_ws/src/communication_pkg', '-DCMAKE_INSTALL_PREFIX=/home/arthur/ros2_ws/install/communication_pkg'], 'cwd': '/home/arthur/ros2_ws/build/communication_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1416'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1756'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3425'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:33927'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1567,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1567'), ('INVOCATION_ID', '0f56f4028e6d442f80e38be26c304d7f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MKM4F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:302061cd-15c3-4a7f-8635-23c363b962e4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/communication_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.199942] (-) TimerEvent: {}
+[0.300518] (-) TimerEvent: {}
+[0.401052] (-) TimerEvent: {}
+[0.501647] (-) TimerEvent: {}
+[0.602291] (-) TimerEvent: {}
+[0.702886] (-) TimerEvent: {}
+[0.790495] (communication_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.803032] (-) TimerEvent: {}
+[0.903401] (-) TimerEvent: {}
+[1.003956] (-) TimerEvent: {}
+[1.104559] (-) TimerEvent: {}
+[1.205089] (-) TimerEvent: {}
+[1.279243] (communication_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.305215] (-) TimerEvent: {}
+[1.394934] (communication_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.405419] (-) TimerEvent: {}
+[1.506052] (-) TimerEvent: {}
+[1.606585] (-) TimerEvent: {}
+[1.654834] (communication_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.662977] (communication_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.663480] (communication_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.683937] (communication_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.706715] (-) TimerEvent: {}
+[1.725153] (communication_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.806812] (-) TimerEvent: {}
+[1.907150] (-) TimerEvent: {}
+[1.989103] (communication_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.997410] (communication_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.997775] (communication_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.998297] (communication_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.007272] (-) TimerEvent: {}
+[2.082089] (communication_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.107482] (-) TimerEvent: {}
+[2.208034] (-) TimerEvent: {}
+[2.308517] (-) TimerEvent: {}
+[2.408785] (-) TimerEvent: {}
+[2.432698] (communication_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.508920] (-) TimerEvent: {}
+[2.609226] (-) TimerEvent: {}
+[2.709600] (-) TimerEvent: {}
+[2.810176] (-) TimerEvent: {}
+[2.818776] (communication_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.910373] (-) TimerEvent: {}
+[3.011024] (-) TimerEvent: {}
+[3.111569] (-) TimerEvent: {}
+[3.162380] (communication_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.211785] (-) TimerEvent: {}
+[3.258264] (communication_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.305638] (communication_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.311870] (-) TimerEvent: {}
+[3.382331] (communication_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.412012] (-) TimerEvent: {}
+[3.467792] (communication_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.512141] (-) TimerEvent: {}
+[3.612430] (-) TimerEvent: {}
+[3.712908] (-) TimerEvent: {}
+[3.772935] (communication_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.788935] (communication_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.813094] (-) TimerEvent: {}
+[3.913640] (-) TimerEvent: {}
+[4.014074] (-) TimerEvent: {}
+[4.114542] (-) TimerEvent: {}
+[4.215077] (-) TimerEvent: {}
+[4.312331] (communication_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.315234] (-) TimerEvent: {}
+[4.415681] (-) TimerEvent: {}
+[4.416757] (communication_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.484253] (communication_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.515895] (-) TimerEvent: {}
+[4.616347] (-) TimerEvent: {}
+[4.707524] (communication_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.716520] (-) TimerEvent: {}
+[4.816995] (-) TimerEvent: {}
+[4.914074] (communication_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.914845] (communication_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.917084] (-) TimerEvent: {}
+[5.017335] (-) TimerEvent: {}
+[5.030129] (communication_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.031534] (communication_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.117533] (-) TimerEvent: {}
+[5.218013] (-) TimerEvent: {}
+[5.318303] (-) TimerEvent: {}
+[5.418599] (-) TimerEvent: {}
+[5.501282] (communication_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.511577] (communication_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.513108] (communication_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/arthur/ros2_ws/build/communication_pkg\n'}
+[5.518699] (-) TimerEvent: {}
+[5.521827] (communication_pkg) CommandEnded: {'returncode': 0}
+[5.522441] (communication_pkg) JobProgress: {'identifier': 'communication_pkg', 'progress': 'build'}
+[5.523843] (communication_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arthur/ros2_ws/build/communication_pkg', '--', '-j4', '-l4'], 'cwd': '/home/arthur/ros2_ws/build/communication_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1416'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1756'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3425'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:33927'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1567,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1567'), ('INVOCATION_ID', '0f56f4028e6d442f80e38be26c304d7f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MKM4F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:302061cd-15c3-4a7f-8635-23c363b962e4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/communication_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[5.580321] (communication_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/holder_ball_robot.dir/src/holder_ball_robot.cpp.o\x1b[0m\n'}
+[5.618817] (-) TimerEvent: {}
+[5.719140] (-) TimerEvent: {}
+[5.819458] (-) TimerEvent: {}
+[5.919785] (-) TimerEvent: {}
+[6.020074] (-) TimerEvent: {}
+[6.120372] (-) TimerEvent: {}
+[6.220673] (-) TimerEvent: {}
+[6.320979] (-) TimerEvent: {}
+[6.421328] (-) TimerEvent: {}
+[6.521665] (-) TimerEvent: {}
+[6.621975] (-) TimerEvent: {}
+[6.722286] (-) TimerEvent: {}
+[6.822595] (-) TimerEvent: {}
+[6.922913] (-) TimerEvent: {}
+[7.023228] (-) TimerEvent: {}
+[7.123538] (-) TimerEvent: {}
+[7.223855] (-) TimerEvent: {}
+[7.324149] (-) TimerEvent: {}
+[7.424465] (-) TimerEvent: {}
+[7.524782] (-) TimerEvent: {}
+[7.625100] (-) TimerEvent: {}
+[7.725416] (-) TimerEvent: {}
+[7.825731] (-) TimerEvent: {}
+[7.926042] (-) TimerEvent: {}
+[8.026354] (-) TimerEvent: {}
+[8.126642] (-) TimerEvent: {}
+[8.226948] (-) TimerEvent: {}
+[8.327259] (-) TimerEvent: {}
+[8.427563] (-) TimerEvent: {}
+[8.527894] (-) TimerEvent: {}
+[8.628203] (-) TimerEvent: {}
+[8.728536] (-) TimerEvent: {}
+[8.828844] (-) TimerEvent: {}
+[8.929153] (-) TimerEvent: {}
+[9.029463] (-) TimerEvent: {}
+[9.129774] (-) TimerEvent: {}
+[9.230084] (-) TimerEvent: {}
+[9.330393] (-) TimerEvent: {}
+[9.430718] (-) TimerEvent: {}
+[9.531025] (-) TimerEvent: {}
+[9.631357] (-) TimerEvent: {}
+[9.731669] (-) TimerEvent: {}
+[9.831983] (-) TimerEvent: {}
+[9.932297] (-) TimerEvent: {}
+[10.032608] (-) TimerEvent: {}
+[10.132919] (-) TimerEvent: {}
+[10.233227] (-) TimerEvent: {}
+[10.333535] (-) TimerEvent: {}
+[10.433823] (-) TimerEvent: {}
+[10.534158] (-) TimerEvent: {}
+[10.634500] (-) TimerEvent: {}
+[10.734810] (-) TimerEvent: {}
+[10.835120] (-) TimerEvent: {}
+[10.935429] (-) TimerEvent: {}
+[11.035738] (-) TimerEvent: {}
+[11.136035] (-) TimerEvent: {}
+[11.236360] (-) TimerEvent: {}
+[11.336661] (-) TimerEvent: {}
+[11.436977] (-) TimerEvent: {}
+[11.537336] (-) TimerEvent: {}
+[11.637678] (-) TimerEvent: {}
+[11.738008] (-) TimerEvent: {}
+[11.838341] (-) TimerEvent: {}
+[11.938694] (-) TimerEvent: {}
+[12.038999] (-) TimerEvent: {}
+[12.139324] (-) TimerEvent: {}
+[12.239620] (-) TimerEvent: {}
+[12.339918] (-) TimerEvent: {}
+[12.440218] (-) TimerEvent: {}
+[12.540530] (-) TimerEvent: {}
+[12.640825] (-) TimerEvent: {}
+[12.741130] (-) TimerEvent: {}
+[12.841429] (-) TimerEvent: {}
+[12.941723] (-) TimerEvent: {}
+[13.042025] (-) TimerEvent: {}
+[13.142327] (-) TimerEvent: {}
+[13.242613] (-) TimerEvent: {}
+[13.342920] (-) TimerEvent: {}
+[13.443220] (-) TimerEvent: {}
+[13.543521] (-) TimerEvent: {}
+[13.643824] (-) TimerEvent: {}
+[13.744133] (-) TimerEvent: {}
+[13.844437] (-) TimerEvent: {}
+[13.944721] (-) TimerEvent: {}
+[14.045019] (-) TimerEvent: {}
+[14.145319] (-) TimerEvent: {}
+[14.245621] (-) TimerEvent: {}
+[14.345930] (-) TimerEvent: {}
+[14.446232] (-) TimerEvent: {}
+[14.546571] (-) TimerEvent: {}
+[14.646863] (-) TimerEvent: {}
+[14.747189] (-) TimerEvent: {}
+[14.847496] (-) TimerEvent: {}
+[14.947798] (-) TimerEvent: {}
+[15.048098] (-) TimerEvent: {}
+[15.148402] (-) TimerEvent: {}
+[15.248702] (-) TimerEvent: {}
+[15.349003] (-) TimerEvent: {}
+[15.449302] (-) TimerEvent: {}
+[15.549604] (-) TimerEvent: {}
+[15.649912] (-) TimerEvent: {}
+[15.750244] (-) TimerEvent: {}
+[15.850557] (-) TimerEvent: {}
+[15.950846] (-) TimerEvent: {}
+[16.051237] (-) TimerEvent: {}
+[16.151810] (-) TimerEvent: {}
+[16.252327] (-) TimerEvent: {}
+[16.352624] (-) TimerEvent: {}
+[16.452922] (-) TimerEvent: {}
+[16.553241] (-) TimerEvent: {}
+[16.653543] (-) TimerEvent: {}
+[16.753845] (-) TimerEvent: {}
+[16.854139] (-) TimerEvent: {}
+[16.954448] (-) TimerEvent: {}
+[17.011116] (communication_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable holder_ball_robot\x1b[0m\n'}
+[17.054603] (-) TimerEvent: {}
+[17.154965] (-) TimerEvent: {}
+[17.255478] (-) TimerEvent: {}
+[17.355939] (-) TimerEvent: {}
+[17.456406] (-) TimerEvent: {}
+[17.556832] (-) TimerEvent: {}
+[17.657253] (-) TimerEvent: {}
+[17.757543] (-) TimerEvent: {}
+[17.857829] (-) TimerEvent: {}
+[17.958115] (-) TimerEvent: {}
+[18.032178] (communication_pkg) StdoutLine: {'line': b'[100%] Built target holder_ball_robot\n'}
+[18.043956] (communication_pkg) CommandEnded: {'returncode': 0}
+[18.058335] (-) TimerEvent: {}
+[18.073748] (communication_pkg) JobProgress: {'identifier': 'communication_pkg', 'progress': 'install'}
+[18.083947] (communication_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arthur/ros2_ws/build/communication_pkg'], 'cwd': '/home/arthur/ros2_ws/build/communication_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1416'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1756'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3425'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:33927'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1567,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1567'), ('INVOCATION_ID', '0f56f4028e6d442f80e38be26c304d7f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MKM4F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:302061cd-15c3-4a7f-8635-23c363b962e4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/communication_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[18.092601] (communication_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.092880] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/lib/communication_pkg/holder_ball_robot\n'}
+[18.098922] (communication_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/arthur/ros2_ws/install/communication_pkg/lib/communication_pkg/holder_ball_robot" to ""\n'}
+[18.099188] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/ament_index/resource_index/package_run_dependencies/communication_pkg\n'}
+[18.099378] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/ament_index/resource_index/parent_prefix_path/communication_pkg\n'}
+[18.099507] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/environment/ament_prefix_path.sh\n'}
+[18.099628] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/environment/ament_prefix_path.dsv\n'}
+[18.099816] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/environment/path.sh\n'}
+[18.100047] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/environment/path.dsv\n'}
+[18.100302] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/local_setup.bash\n'}
+[18.100636] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/local_setup.sh\n'}
+[18.100799] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/local_setup.zsh\n'}
+[18.100924] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/local_setup.dsv\n'}
+[18.101140] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/package.dsv\n'}
+[18.101438] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/ament_index/resource_index/packages/communication_pkg\n'}
+[18.101680] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/cmake/communication_pkgConfig.cmake\n'}
+[18.101837] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/cmake/communication_pkgConfig-version.cmake\n'}
+[18.102034] (communication_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/package.xml\n'}
+[18.104467] (communication_pkg) CommandEnded: {'returncode': 0}
+[18.158605] (-) TimerEvent: {}
+[18.259046] (-) TimerEvent: {}
+[18.333461] (communication_pkg) JobEnded: {'identifier': 'communication_pkg', 'rc': 0}
+[18.333815] (-) EventReactorShutdown: {}

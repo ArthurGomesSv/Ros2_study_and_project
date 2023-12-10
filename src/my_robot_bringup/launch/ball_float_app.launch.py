@@ -16,19 +16,30 @@ def generate_launch_description():
         ]
     )
 
-    holder_ball_robot_node = Node(
-        package="my_cpp_pkg",
-        executable="holder_ball_robot"
-    )
-
     image_processing = Node(
         package="camera_pkg",
         executable="image_processing"
     )
 
+    control_node = Node(
+        package="control_pkg",
+        executable="control",
+        parameters=[
+            {"KP":120},
+            {"KD":120},
+            {"KI":120}
+        ]
+    )
+
+    holder_ball_node = Node(
+        package="communication_pkg",
+        executable="holder_ball_robot"
+    )
+
 
     ld.add_action(realsense_camera_node)
-    ld.add_action(holder_ball_robot_node)
     ld.add_action(image_processing)
+    ld.add_action(control_node)
+    ld.add_action(holder_ball_node)
 
     return ld

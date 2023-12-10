@@ -1,0 +1,2 @@
+Invoking command in '/home/arthur/ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/arthur/ros2_ws/src/control_pkg -DCMAKE_INSTALL_PREFIX=/home/arthur/ros2_ws/install/control_pkg
+Invoked command in '/home/arthur/ros2_ws/build/control_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/arthur/ros2_ws/src/control_pkg -DCMAKE_INSTALL_PREFIX=/home/arthur/ros2_ws/install/control_pkg

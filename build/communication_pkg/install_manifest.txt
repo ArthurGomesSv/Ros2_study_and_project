@@ -1,0 +1,16 @@
+/home/arthur/ros2_ws/install/communication_pkg/lib/communication_pkg/holder_ball_robot
+/home/arthur/ros2_ws/install/communication_pkg/share/ament_index/resource_index/package_run_dependencies/communication_pkg
+/home/arthur/ros2_ws/install/communication_pkg/share/ament_index/resource_index/parent_prefix_path/communication_pkg
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/environment/ament_prefix_path.sh
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/environment/ament_prefix_path.dsv
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/environment/path.sh
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/environment/path.dsv
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/local_setup.bash
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/local_setup.sh
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/local_setup.zsh
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/local_setup.dsv
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/package.dsv
+/home/arthur/ros2_ws/install/communication_pkg/share/ament_index/resource_index/packages/communication_pkg
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/cmake/communication_pkgConfig.cmake
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/cmake/communication_pkgConfig-version.cmake
+/home/arthur/ros2_ws/install/communication_pkg/share/communication_pkg/package.xml

@@ -1,0 +1,25 @@
+[0.114s] Invoking command in '/home/arthur/ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/control_pkg -- -j4 -l4
+[0.358s] [ 50%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
+[10.933s] [100%] [32m[1mLinking CXX executable control[0m
+[11.443s] [100%] Built target control
+[11.455s] Invoked command in '/home/arthur/ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arthur/ros2_ws/build/control_pkg -- -j4 -l4
+[11.497s] Invoking command in '/home/arthur/ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arthur/ros2_ws/build/control_pkg
+[11.505s] -- Install configuration: ""
+[11.516s] -- Installing: /home/arthur/ros2_ws/install/control_pkg/lib/control_pkg/control
+[11.520s] -- Set runtime path of "/home/arthur/ros2_ws/install/control_pkg/lib/control_pkg/control" to ""
+[11.520s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/ament_index/resource_index/package_run_dependencies/control_pkg
+[11.533s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/ament_index/resource_index/parent_prefix_path/control_pkg
+[11.534s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.sh
+[11.534s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/environment/ament_prefix_path.dsv
+[11.534s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/environment/path.sh
+[11.534s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/environment/path.dsv
+[11.534s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/local_setup.bash
+[11.534s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/local_setup.sh
+[11.534s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/local_setup.zsh
+[11.534s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/local_setup.dsv
+[11.534s] -- Installing: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/package.dsv
+[11.553s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/ament_index/resource_index/packages/control_pkg
+[11.553s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig.cmake
+[11.554s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/cmake/control_pkgConfig-version.cmake
+[11.554s] -- Up-to-date: /home/arthur/ros2_ws/install/control_pkg/share/control_pkg/package.xml
+[11.559s] Invoked command in '/home/arthur/ros2_ws/build/control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arthur/ros2_ws/build/control_pkg

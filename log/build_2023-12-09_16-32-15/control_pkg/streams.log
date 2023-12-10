@@ -1,0 +1,31 @@
+[0.069s] Invoking command in '/home/arthur/ros2_ws/build/control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/arthur/ros2_ws/src/control_pkg -DCMAKE_INSTALL_PREFIX=/home/arthur/ros2_ws/install/control_pkg
+[0.083s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.235s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.268s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.270s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.277s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.372s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.373s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.689s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.689s]   By not providing "Findstd_msg.cmake" in CMAKE_MODULE_PATH this project has
+[0.689s]   asked CMake to find a package configuration file provided by "std_msg", but
+[0.689s]   CMake did not find one.
+[0.689s] 
+[0.689s]   Could not find a package configuration file provided by "std_msg" with any
+[0.689s]   of the following names:
+[0.689s] 
+[0.689s]     std_msgConfig.cmake
+[0.689s]     std_msg-config.cmake
+[0.689s] 
+[0.689s]   Add the installation prefix of "std_msg" to CMAKE_PREFIX_PATH or set
+[0.690s]   "std_msg_DIR" to a directory containing one of the above files.  If
+[0.690s]   "std_msg" provides a separate development package or SDK, be sure it has
+[0.690s]   been installed.
+[0.690s] 
+[0.690s] [0m
+[0.690s] -- Configuring incomplete, errors occurred!
+[0.690s] See also "/home/arthur/ros2_ws/build/control_pkg/CMakeFiles/CMakeOutput.log".
+[0.696s] Invoked command in '/home/arthur/ros2_ws/build/control_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/arthur/ros2_ws/src/control_pkg -DCMAKE_INSTALL_PREFIX=/home/arthur/ros2_ws/install/control_pkg
