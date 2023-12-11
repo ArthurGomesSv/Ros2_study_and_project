@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (-) JobUnselected: {'identifier': 'communication_pkg'}
+[0.000886] (-) JobUnselected: {'identifier': 'control_pkg'}
+[0.000958] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000996] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001068] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.001113] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001175] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001195] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001222] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001260] (camera_pkg) JobQueued: {'identifier': 'camera_pkg', 'dependencies': OrderedDict()}
+[0.001286] (camera_pkg) JobStarted: {'identifier': 'camera_pkg'}
+[0.099824] (-) TimerEvent: {}
+[0.108258] (camera_pkg) JobProgress: {'identifier': 'camera_pkg', 'progress': 'cmake'}
+[0.124407] (camera_pkg) JobProgress: {'identifier': 'camera_pkg', 'progress': 'build'}
+[0.125297] (camera_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arthur/ros2_ws/build/camera_pkg', '--', '-j4', '-l4'], 'cwd': '/home/arthur/ros2_ws/build/camera_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1409'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2163'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:30690'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1562,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1562'), ('INVOCATION_ID', 'c950c7fa5ed54b58991afc9952a067a8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUCMF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/communication_pkg:/home/arthur/ros2_ws/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:81a16897-5820-472c-afe9-012d292130cb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/camera_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/communication_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.199983] (-) TimerEvent: {}
+[0.300351] (-) TimerEvent: {}
+[0.400788] (-) TimerEvent: {}
+[0.501419] (-) TimerEvent: {}
+[0.593942] (camera_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_processing\x1b[0m\n'}
+[0.601559] (-) TimerEvent: {}
+[0.640369] (camera_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_processing.dir/src/image_processing.cpp.o\x1b[0m\n'}
+[0.701737] (-) TimerEvent: {}
+[0.802296] (-) TimerEvent: {}
+[0.902869] (-) TimerEvent: {}
+[1.003553] (-) TimerEvent: {}
+[1.104232] (-) TimerEvent: {}
+[1.204796] (-) TimerEvent: {}
+[1.305458] (-) TimerEvent: {}
+[1.406103] (-) TimerEvent: {}
+[1.506681] (-) TimerEvent: {}
+[1.607344] (-) TimerEvent: {}
+[1.707863] (-) TimerEvent: {}
+[1.808226] (-) TimerEvent: {}
+[1.908677] (-) TimerEvent: {}
+[2.009118] (-) TimerEvent: {}
+[2.109805] (-) TimerEvent: {}
+[2.210471] (-) TimerEvent: {}
+[2.311038] (-) TimerEvent: {}
+[2.411747] (-) TimerEvent: {}
+[2.512326] (-) TimerEvent: {}
+[2.612826] (-) TimerEvent: {}
+[2.713217] (-) TimerEvent: {}
+[2.813765] (-) TimerEvent: {}
+[2.914357] (-) TimerEvent: {}
+[3.014914] (-) TimerEvent: {}
+[3.115323] (-) TimerEvent: {}
+[3.215686] (-) TimerEvent: {}
+[3.316151] (-) TimerEvent: {}
+[3.416595] (-) TimerEvent: {}
+[3.517206] (-) TimerEvent: {}
+[3.617543] (-) TimerEvent: {}
+[3.717944] (-) TimerEvent: {}
+[3.818232] (-) TimerEvent: {}
+[3.918541] (-) TimerEvent: {}
+[4.018836] (-) TimerEvent: {}
+[4.119154] (-) TimerEvent: {}
+[4.219450] (-) TimerEvent: {}
+[4.319769] (-) TimerEvent: {}
+[4.420091] (-) TimerEvent: {}
+[4.520427] (-) TimerEvent: {}
+[4.620747] (-) TimerEvent: {}
+[4.721070] (-) TimerEvent: {}
+[4.821405] (-) TimerEvent: {}
+[4.921729] (-) TimerEvent: {}
+[5.022071] (-) TimerEvent: {}
+[5.122382] (-) TimerEvent: {}
+[5.222699] (-) TimerEvent: {}
+[5.323017] (-) TimerEvent: {}
+[5.423338] (-) TimerEvent: {}
+[5.523669] (-) TimerEvent: {}
+[5.623992] (-) TimerEvent: {}
+[5.724301] (-) TimerEvent: {}
+[5.824614] (-) TimerEvent: {}
+[5.924922] (-) TimerEvent: {}
+[6.025234] (-) TimerEvent: {}
+[6.125548] (-) TimerEvent: {}
+[6.225879] (-) TimerEvent: {}
+[6.326183] (-) TimerEvent: {}
+[6.426509] (-) TimerEvent: {}
+[6.526820] (-) TimerEvent: {}
+[6.627110] (-) TimerEvent: {}
+[6.727401] (-) TimerEvent: {}
+[6.827698] (-) TimerEvent: {}
+[6.928024] (-) TimerEvent: {}
+[7.028397] (-) TimerEvent: {}
+[7.128712] (-) TimerEvent: {}
+[7.229025] (-) TimerEvent: {}
+[7.329323] (-) TimerEvent: {}
+[7.429641] (-) TimerEvent: {}
+[7.529976] (-) TimerEvent: {}
+[7.630300] (-) TimerEvent: {}
+[7.730639] (-) TimerEvent: {}
+[7.830953] (-) TimerEvent: {}
+[7.931264] (-) TimerEvent: {}
+[8.031607] (-) TimerEvent: {}
+[8.131925] (-) TimerEvent: {}
+[8.232222] (-) TimerEvent: {}
+[8.332539] (-) TimerEvent: {}
+[8.432857] (-) TimerEvent: {}
+[8.533177] (-) TimerEvent: {}
+[8.633496] (-) TimerEvent: {}
+[8.733843] (-) TimerEvent: {}
+[8.834199] (-) TimerEvent: {}
+[8.934542] (-) TimerEvent: {}
+[9.034871] (-) TimerEvent: {}
+[9.135183] (-) TimerEvent: {}
+[9.235503] (-) TimerEvent: {}
+[9.335840] (-) TimerEvent: {}
+[9.436172] (-) TimerEvent: {}
+[9.536485] (-) TimerEvent: {}
+[9.636959] (-) TimerEvent: {}
+[9.737242] (-) TimerEvent: {}
+[9.837551] (-) TimerEvent: {}
+[9.937973] (-) TimerEvent: {}
+[10.038278] (-) TimerEvent: {}
+[10.138591] (-) TimerEvent: {}
+[10.238900] (-) TimerEvent: {}
+[10.339209] (-) TimerEvent: {}
+[10.439492] (-) TimerEvent: {}
+[10.539786] (-) TimerEvent: {}
+[10.640073] (-) TimerEvent: {}
+[10.740359] (-) TimerEvent: {}
+[10.840664] (-) TimerEvent: {}
+[10.940953] (-) TimerEvent: {}
+[11.041242] (-) TimerEvent: {}
+[11.141552] (-) TimerEvent: {}
+[11.241897] (-) TimerEvent: {}
+[11.342174] (-) TimerEvent: {}
+[11.442462] (-) TimerEvent: {}
+[11.542747] (-) TimerEvent: {}
+[11.643050] (-) TimerEvent: {}
+[11.743352] (-) TimerEvent: {}
+[11.843665] (-) TimerEvent: {}
+[11.943952] (-) TimerEvent: {}
+[12.044261] (-) TimerEvent: {}
+[12.144550] (-) TimerEvent: {}
+[12.244855] (-) TimerEvent: {}
+[12.345163] (-) TimerEvent: {}
+[12.445465] (-) TimerEvent: {}
+[12.545751] (-) TimerEvent: {}
+[12.646106] (-) TimerEvent: {}
+[12.746578] (-) TimerEvent: {}
+[12.847194] (-) TimerEvent: {}
+[12.947809] (-) TimerEvent: {}
+[13.048081] (-) TimerEvent: {}
+[13.148397] (-) TimerEvent: {}
+[13.248720] (-) TimerEvent: {}
+[13.349009] (-) TimerEvent: {}
+[13.449321] (-) TimerEvent: {}
+[13.534399] (camera_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_processing\x1b[0m\n'}
+[13.549484] (-) TimerEvent: {}
+[13.649915] (-) TimerEvent: {}
+[13.750491] (-) TimerEvent: {}
+[13.850878] (-) TimerEvent: {}
+[13.951515] (-) TimerEvent: {}
+[14.052166] (-) TimerEvent: {}
+[14.152784] (-) TimerEvent: {}
+[14.253418] (-) TimerEvent: {}
+[14.354010] (-) TimerEvent: {}
+[14.454426] (-) TimerEvent: {}
+[14.554809] (-) TimerEvent: {}
+[14.655445] (-) TimerEvent: {}
+[14.756054] (-) TimerEvent: {}
+[14.856698] (-) TimerEvent: {}
+[14.957013] (-) TimerEvent: {}
+[15.057468] (-) TimerEvent: {}
+[15.158021] (-) TimerEvent: {}
+[15.258324] (-) TimerEvent: {}
+[15.358644] (-) TimerEvent: {}
+[15.458973] (-) TimerEvent: {}
+[15.550231] (camera_pkg) StdoutLine: {'line': b'[100%] Built target image_processing\n'}
+[15.559091] (-) TimerEvent: {}
+[15.562073] (camera_pkg) CommandEnded: {'returncode': 0}
+[15.592017] (camera_pkg) JobProgress: {'identifier': 'camera_pkg', 'progress': 'install'}
+[15.601805] (camera_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arthur/ros2_ws/build/camera_pkg'], 'cwd': '/home/arthur/ros2_ws/build/camera_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arthur'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arthur/ros2_ws/install/realsense2_camera/lib:/home/arthur/ros2_ws/install/realsense2_camera_msgs/lib:/home/arthur/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arthur'), ('OLDPWD', '/home/arthur'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1409'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2163'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arthur/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arthur'), ('JOURNAL_STREAM', '8:30690'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arthur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arthur-Aspire-VX5-591G:@/tmp/.ICE-unix/1562,unix/arthur-Aspire-VX5-591G:/tmp/.ICE-unix/1562'), ('INVOCATION_ID', 'c950c7fa5ed54b58991afc9952a067a8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JUCMF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_py_pkg:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/communication_pkg:/home/arthur/ros2_ws/install/camera_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:81a16897-5820-472c-afe9-012d292130cb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arthur/ros2_ws/build/camera_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arthur/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/arthur/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/arthur/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arthur/ros2_ws/install/realsense2_description:/home/arthur/ros2_ws/install/my_robot_bringup:/home/arthur/ros2_ws/install/realsense2_camera:/home/arthur/ros2_ws/install/realsense2_camera_msgs:/home/arthur/ros2_ws/install/my_cpp_pkg:/home/arthur/ros2_ws/install/my_robot_interfaces:/home/arthur/ros2_ws/install/control_pkg:/home/arthur/ros2_ws/install/communication_pkg:/home/arthur/ros2_ws/install/camera_pkg:/home/arthur/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[15.627877] (camera_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.657606] (camera_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/camera_pkg/lib/camera_pkg/image_processing\n'}
+[15.659239] (-) TimerEvent: {}
+[15.668093] (camera_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/arthur/ros2_ws/install/camera_pkg/lib/camera_pkg/image_processing" to ""\n'}
+[15.668562] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/package_run_dependencies/camera_pkg\n'}
+[15.681699] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/parent_prefix_path/camera_pkg\n'}
+[15.682560] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.sh\n'}
+[15.682955] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/ament_prefix_path.dsv\n'}
+[15.683506] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/path.sh\n'}
+[15.683798] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/environment/path.dsv\n'}
+[15.684047] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.bash\n'}
+[15.684283] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.sh\n'}
+[15.684514] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.zsh\n'}
+[15.684739] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/local_setup.dsv\n'}
+[15.684964] (camera_pkg) StdoutLine: {'line': b'-- Installing: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/package.dsv\n'}
+[15.698265] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/ament_index/resource_index/packages/camera_pkg\n'}
+[15.699134] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig.cmake\n'}
+[15.699588] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/cmake/camera_pkgConfig-version.cmake\n'}
+[15.699878] (camera_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/arthur/ros2_ws/install/camera_pkg/share/camera_pkg/package.xml\n'}
+[15.717577] (camera_pkg) CommandEnded: {'returncode': 0}
+[15.759471] (-) TimerEvent: {}
+[15.859796] (-) TimerEvent: {}
+[15.960295] (-) TimerEvent: {}
+[16.060632] (-) TimerEvent: {}
+[16.110793] (camera_pkg) JobEnded: {'identifier': 'camera_pkg', 'rc': 0}
+[16.111744] (-) EventReactorShutdown: {}
