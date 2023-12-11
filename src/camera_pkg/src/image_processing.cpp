@@ -23,7 +23,7 @@ public:
 
 private:
     //DEBUG?
-    bool DEBUGMOD = false;
+    bool DEBUGMOD = true;
 
     //Comunicação ROS
     rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr ball_height_publisher_;
@@ -38,6 +38,7 @@ private:
     cv::Mat realsense_image_depth;
     int image_width = 640;
     int image_height = 480;
+    int width_bound = 220;
 
     //Região onde a bola pode ser detectada ball_ref_dist-ball_ref_bound < ball_dist < ball_ref_dist+ball_ref_bound
     int ball_ref_dist = 910;
@@ -87,7 +88,7 @@ private:
     {
       cv::Mat gray_image_to_hough_transform(realsense_image_depth.size(),CV_8UC1,cv::Scalar(255));
 
-      for(int i=0;i<image_width;i++)
+      for(int i=width_bound;i<image_width-width_bound;i++)
       {
         for(int j=0;j<image_height;j++)
         {
@@ -152,7 +153,7 @@ private:
 
       ball_height = (int)((double)ball_depth*((double)ball_cy-cy)/fy);
 
-      if(DEBUGMOD)RCLCPP_INFO(this->get_logger(),"Ball Height: %f ",0.001*(float)ball_height);
+      //if(DEBUGMOD)RCLCPP_INFO(this->get_logger(),"Ball Height: %f ",0.001*(float)ball_height);
     }
 
     void publishe_ball_y_position()

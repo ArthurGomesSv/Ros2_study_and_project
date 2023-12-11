@@ -25,12 +25,13 @@ def generate_launch_description():
         package="control_pkg",
         executable="control",
         parameters=[
-            {"KP":120},
-            {"KD":120},
-            {"KI":120}
+            {"KP":4.0},
+            {"KD":2.35},
+            {"KI":0.0}
         ]
     )
-
+    #4.0 ; 2.35 ; 0.0 - sem filtro de ação de controle
+    #6.0 ; 2.5 ; 0.03 - com filtro de ação de controle = 2
     holder_ball_node = Node(
         package="communication_pkg",
         executable="holder_ball_robot"

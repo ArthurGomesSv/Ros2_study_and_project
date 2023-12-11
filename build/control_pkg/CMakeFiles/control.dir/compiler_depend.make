@@ -668,10 +668,25 @@ CMakeFiles/control.dir/src/control.cpp.o: /home/arthur/ros2_ws/src/control_pkg/s
   /opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h
 
+
+/usr/include/c++/11/bits/stl_queue.h:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/deque:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/int32__builder.hpp:
+
+/usr/include/c++/11/queue:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/int32.hpp:
 
